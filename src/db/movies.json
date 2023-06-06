@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Homem aranha através do aranha verso",
+        "slug": "spider-man-across-the-spider-verse",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje-cD3pCSBNqTfiX2RY0PFexSDdSMhV-NQcqQFim-EuvdOypGlMSLUp0UhdtAwc6vI_8p6E5iVIcDWuGVHHkKd63JC3DVMixCHMyfJNmua4X0YrKl9RPhYMIWhS5xBiiSTN6ZjrKEL9p6qP0kWex2SoiRY7QlpMDr1evYh3uMzeJDq6JpN0-M/s1600/1AD6CEEC-FF8B-4BDD-A2C4-174F0B95DF27.jpeg",
+        "date": "2023-06-01",
+        "producer": [ "Sony Pictures Animation", "Marvel Entertainment" ],
+        "assessments": [
+            {
+                "name": "Leonardo",
+                "note": 9
+            },
+            {
+                "name": "Maxwelter",
+                "note": 9
+            },
+            {
+                "name": "Pedro",
+                "note": 9
+            },
+            {
+                "name": "Daniel",
+                "note": 9
+            },
+            {
+                "name": "Luiz Gustavo",
+                "note": 10
+            }
+        ],
+        "note": 9.2
+    },
+    {
+        "id": 2,
+        "name": "Homem aranha através do aranha verso",
+        "slug": "spider-man-across-the-spider-verse",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje-cD3pCSBNqTfiX2RY0PFexSDdSMhV-NQcqQFim-EuvdOypGlMSLUp0UhdtAwc6vI_8p6E5iVIcDWuGVHHkKd63JC3DVMixCHMyfJNmua4X0YrKl9RPhYMIWhS5xBiiSTN6ZjrKEL9p6qP0kWex2SoiRY7QlpMDr1evYh3uMzeJDq6JpN0-M/s1600/1AD6CEEC-FF8B-4BDD-A2C4-174F0B95DF27.jpeg",
+        "date": "2023-06-01",
+        "producer": [ "Sony Pictures Animation", "Marvel Entertainment" ],
+        "assessments": [
+            {
+                "name": "Leonardo",
+                "note": 9
+            },
+            {
+                "name": "Maxwelter",
+                "note": 9
+            },
+            {
+                "name": "Pedro",
+                "note": 9
+            }
+        ],
+        "note": 9
+    }
+]

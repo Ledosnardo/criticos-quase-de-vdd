@@ -1,0 +1,33 @@
+@import "../../styles/commumStyles.css";
+
+
+.box{
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 8px var(--color-black);
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+.box div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.box h3{
+    width: 20%;
+    height: 2rem;
+    font-family: var(--font-dancing);
+    font-weight: bold;
+    font-size: 2em;
+    background-color: #006400;
+    padding: 10px;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+@import '../../styles/commumStyles.css';
+
+.link{
+    color: var(--color-black);
+    padding: 10px;
+}
+
+.link:hover{
+    color: var(--color-gray);
+}

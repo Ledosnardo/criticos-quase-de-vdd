@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "Leonardo",
+        "nickname": "Leo",
+        "photo": "https://i.im.ge/2023/05/30/h6YECC.Leonardo.jpg",
+        "socialMidia": {
+            "instagram": "https://www.instagram.com/leuzada/",
+            "linkedin": "https://www.linkedin.com/in/leonardo-atanasio-4a7364219/",
+            "github": "https://github.com/Ledosnardo"
+        },
+        "description": "sla, testando"
+    },
+    {
+        "id": 2,
+        "name": "Maxwelter",
+        "nickname": "Swelter",
+        "photo": "https://i.im.ge/2023/05/30/h6pW79.swelter.png",
+        "socialMidia": {
+            "instagram": "https://www.instagram.com/maxlod0r6/"
+        },
+        "description": ""
+    },
+    {
+        "id": 3,
+        "name": "Pedro",
+        "nickname": "Rolandinho",
+        "photo": "https://i.im.ge/2023/05/30/h6VfEf.rolandinho.png",
+        "socialMidia": {
+            "instagram": "https://www.instagram.com/pedroant02/"
+        },
+        "description": ""
+    },
+    {
+        "id": 4,
+        "name": "Daniel",
+        "nickname": "Daniel",
+        "photo": "https://i.im.ge/2023/05/30/h6fZFz.daniel.png",
+        "socialMidia": {},
+        "description": ""
+    },
+    {
+        "id": 5,
+        "name": "Matheus Gavazzi",
+        "nickname": "Gavazzi",
+        "photo": "https://i.im.ge/2023/05/30/h6k5mz.gavazzi.png",
+        "socialMidia": {},
+        "description": ""
+    },
+    {
+        "id": 6,
+        "name": "Luiz Gustavo",
+        "nickname": "Catchau",
+        "photo": "https://i.im.ge/2023/05/30/h6kvic.catchau.png",
+        "socialMidia": {},
+        "description": ""
+    },
+    {
+        "id": 7,
+        "name": "Luiz Eduardo",
+        "nickname": "Duduzinho",
+        "photo": "https://i.im.ge/2023/05/30/h6zfxX.duduzin.png",
+        "socialMidia": {
+            "instagram": "https://www.instagram.com/luiz_eduardo_5858/"
+        },
+        "description": ""
+    }
+]

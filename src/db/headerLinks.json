@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Página Inicial",
+        "url": "/",
+        "id": 1
+    },
+    {
+        "name": "Críticos",
+        "url": "/criticos",
+        "id": 2
+    },
+    {
+        "name": "Filmes",
+        "url": "/filmes",
+        "id": 3
+    },
+    {
+        "name": "Sobre",
+        "url": "/sobre",
+        "id": 4
+    }
+]
