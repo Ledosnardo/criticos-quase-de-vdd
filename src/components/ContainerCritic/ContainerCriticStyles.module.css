@@ -1,0 +1,40 @@
+.critic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.critic img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+.critic h3{
+    display: none;
+}
+
+.critic h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    width: 80%;
+    height: 4vh;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px green;
+    color: black;
+    text-shadow: 
+        -1px -1px 0px #FFF, 
+        -1px 1px 0px #FFF,      
+        1px -1px 0px #FFF,    
+        1px 0px 0px #FFF;
+}
+
+.critic:hover h3{
+    display: flex;
+    position: absolute;
+    width: auto;
+    text-align: center;
+}

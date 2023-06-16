@@ -1,0 +1,14 @@
+@import '../../styles/commumStyles.css'; 
+
+.content{
+    width: 100%;
+    height: 130vh;
+    background: var(--color-black);
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}

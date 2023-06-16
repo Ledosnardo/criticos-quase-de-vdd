@@ -10,5 +10,16 @@ interface criticsInterface {
 export const UseCritics = () => {
     const { critics, setCritics }: criticsInterface = useContext(CriticsContext);
 
-    return { critics, setCritics};
+    return { critics, setCritics };
+}
+
+export const FindImageCritic = (nameCritic: string): string => {
+    const { critics }: criticsInterface = useContext(CriticsContext);
+    const criticFind = critics.find(critic => critic.name === nameCritic);
+
+    if(criticFind){
+        return criticFind?.photo;
+    }
+
+    return '';
 }

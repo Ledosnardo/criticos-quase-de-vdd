@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom"
 import styles from './Header.module.css';
 import logo from './logo.png';
 import links from '../../db/headerLinks.json';
+import HeaderMobile from "./HeaderMobile";
 
 const Header = () => {
     const pathName = useLocation().pathname;
@@ -22,6 +23,7 @@ const Header = () => {
                     )
                 })}
             </div>
+            <HeaderMobile pathName={pathName}/>
         </header>
     )
 }

@@ -2,11 +2,11 @@
 
 
 .box{
-    width: 30%;
+    width: 100%;
     height: 100%;
     border-radius: 5px;
-    box-shadow: 0 0 10px 8px var(--color-black);
-    margin: 20px 20px;
+    box-shadow: 0 0 12px 2px var(--color-black);
+    margin: 20px 0px;
     cursor: pointer;
 }
 
@@ -19,15 +19,19 @@
 }
 
 .box h3{
-    width: 20%;
+    width: 50%;
     height: 2rem;
     font-family: var(--font-dancing);
     font-weight: bold;
     font-size: 2em;
-    background-color: #006400;
-    padding: 10px;
-    color: white;
+    padding: 12px 20px;
     margin-bottom: 5px;
     border-radius: 5px;
     text-align: center;
+    color: black;
+    text-shadow: 
+        -1px -1px 0px #FFF, 
+        -1px 1px 0px #FFF,      
+        1px -1px 0px #FFF,    
+        1px 0px 0px #FFF;
 }

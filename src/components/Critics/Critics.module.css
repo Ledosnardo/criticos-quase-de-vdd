@@ -46,8 +46,9 @@
     height: 80px;
     border-radius: 90px;
     cursor: pointer;
+    transition: .2s;
 }
 
 .content img:hover{
-    border: 3px solid var(--color-white);
+    filter: blur(2px);
 }

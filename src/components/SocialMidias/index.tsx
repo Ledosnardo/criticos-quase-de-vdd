@@ -1,18 +1,14 @@
 import styles from './SocialMidiasStyle.module.css';
 import { AiFillGithub, AiOutlineInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { ISocialMidias } from '../../types/ISocialMidia';
 
 interface props{
-    socialMidia: {
-        instagram?: string | undefined;
-        linkedin?: string | undefined;
-        github?: string | undefined;
-    }
+    socialMidia: ISocialMidias
 }
 
 const SocialMidias = ({ socialMidia }: props) => {
     const arraySocialMidia = [socialMidia];
-    const navigate = useNavigate();
 
     return (
         <>
@@ -20,17 +16,17 @@ const SocialMidias = ({ socialMidia }: props) => {
                 return(
                     <div key={index}>
                         {midia.github && (
-                            <Link to={midia.github || ''} className={styles.link}>
+                            <Link to={midia.github || ''} className={styles.link} target='_blank'>
                                 <AiFillGithub size={50}/>
                             </Link>
                         )}
                         {midia.instagram && (
-                            <Link to={midia.instagram || ''} className={styles.link}>
+                            <Link to={midia.instagram || ''} className={styles.link} target='_blank'>
                                 <AiOutlineInstagram size={50}/>
                             </Link>
                         )}
                         {midia.linkedin && (
-                            <Link to={midia.linkedin || ''} className={styles.link}>
+                            <Link to={midia.linkedin || ''} className={styles.link} target='_blank'>
                                 <AiFillLinkedin size={50}/>
                             </Link>
                         )}

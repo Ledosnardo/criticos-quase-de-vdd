@@ -1,0 +1,86 @@
+@import '../../../styles/commumStyles.css';
+
+.navMobile{
+    display: none;
+}
+
+.linksMobileClose{
+    display: none;
+}
+
+.currentMobile{
+    display: none;
+}
+
+.linksMobile{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    top: 80px;
+    right: 0px;
+    height: auto;
+    background-color: rgba(134, 134, 134, 0.842);
+    transition: .2s;
+    border-radius: 20px 0 0 20px;
+}
+
+.defaultMobile{
+    color: var(--color-black);
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: var(--font-roboto);
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+.defaultMobile:active{
+    background-color: var(--color-white);
+}
+
+.menuHamburguer{
+    top: 20px;
+    width: 30px;
+    height: 4px;
+    background-color: var(--color-gray);
+    margin-right: 20px;
+}
+
+.menuHamburguer::before{
+    content: '';
+    position: absolute;
+    top: 38px;
+    width: 30px;
+    height: 4px;
+    background-color: var(--color-gray);
+    margin-right: 20px;
+}
+
+.menuHamburguerActive{
+    top: 20px;
+    width: 30px;
+    height: 4px;
+    margin-right: 20px;
+    transform: rotate(45deg);
+    background-color: var(--color-white);
+}
+
+.menuHamburguerActive::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    width: 30px;
+    height: 4px;
+    background-color: var(--color-white);
+    margin-right: 20px;
+    transform: rotate(90deg);
+}
+
+@media (max-width: 425px){
+
+    .navMobile{
+        display: flex;
+        flex-direction: column;
+    }
+}

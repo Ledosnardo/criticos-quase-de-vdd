@@ -19,8 +19,8 @@ const ModalTemplate = ({ modalOpen, critic, closeModal }: props) => {
     return(
         <Modal isOpen={modalOpen} onRequestClose={closeModal} ariaHideApp={false}>
             <div className={styles.modal}>
-                <IoIosExit 
-                    size={40} onClick={() => closeModal()} cursor={'pointer'} 
+                <IoIosExit
+                    size={40} onClick={() => closeModal()} cursor={'pointer'}
                     className={styles.closeModal}
                 />
             </div>
@@ -30,24 +30,26 @@ const ModalTemplate = ({ modalOpen, critic, closeModal }: props) => {
                     <h1>{critic?.name}</h1>
                 </div>
                 <div className={styles.description}>
-                    <div className={styles.social_midia}>
-                        <SocialMidias socialMidia={critic?.socialMidia!}/>
+                    <div className={styles.description_person}>
+                        <SocialMidias socialMidia={critic?.socialMidia!} />
+                        <h3>{critic?.description}</h3>
                     </div>
-                    {critic?.description && <h3>{critic?.description}</h3>}
                     <div className={styles.movies}>
                         {moviesCritic.map((movie, index) => (
-                            <Movies 
-                                key={index}
-                                image={movie.image} 
-                                note={movie.note?.note!} 
-                                slug={movie.slug}
-                            /> 
+                            <div key={index}>
+                                <Movies
+                                    image={movie.image}
+                                    note={movie.critic?.note}
+                                    slug={movie.slug}
+                                />
+                            </div>
                         ))}
                     </div>
                 </div>
             </div>
         </Modal>
     )
+
 }
 
 export default ModalTemplate;

@@ -1,0 +1,85 @@
+@import '../../styles/commumStyles.css';
+
+.container{
+    width: 100%;
+    height: 80%;
+    margin: 20px;
+    display: flex;
+}
+
+.image{
+    width: 30%;
+    height: auto;
+}
+
+.image img{
+    width: 100%;
+    height: 90vh;
+}
+
+.movie{
+    width: 70%;
+    color: white;
+}
+
+.movie__name{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: var(--font-dancing);
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.description{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.producer{
+    width: 25%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.date{
+    width: 18%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.note{
+    width: 60%;
+    height: 12vh;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: black;
+    text-shadow: 
+        -1px -1px 0px #FFF, 
+        -1px 1px 0px #FFF,      
+        1px -1px 0px #FFF,    
+        1px 0px 0px #FFF;
+}
+
+.critic{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.critic h3{
+    width: 70%;
+}
+
+.criticsContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}

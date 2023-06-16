@@ -13,17 +13,31 @@ export const UseMovies = (): criticsInterface => {
     return { movies, setMovies };
 }
 
+export const FindMovie = (slug: string) => {
+    const { movies }: criticsInterface = useContext(MoviesContext);
+    const movie = movies.find(movie => movie.slug === slug)
+
+    return movie;
+}
+
 export const FindCriticMovies = (name: string) => {
     const { movies }: criticsInterface = useContext(MoviesContext);
+    
     const criticMovies = movies.map(movie => {
-        return (
-            {
-                "image": movie.image,
-                "slug": movie.slug,
-                "note": movie.assessments.find(person => person.name === name)
-            }
-        )
+        const test = movie.assessments.find(critic => critic.name === name);
+        if(test){
+            return movie
+        }
+        return
     })
 
-    return criticMovies;
+    const ArrayMovies = criticMovies.map(movie => (
+        {
+            "image": movie?.image,
+            "slug": movie?.slug,
+            "critic": movie?.assessments.find(critic => critic.name === name)
+        }
+    ))
+
+    return ArrayMovies;
 }

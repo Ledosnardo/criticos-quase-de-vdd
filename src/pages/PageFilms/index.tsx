@@ -18,8 +18,8 @@ const PageFilms = () => {
             <section className={styles.section}>
                 {movies.map(movie => {
                     return(
-                        <div className={styles.movie}>
-                            <Movies image={movie.image} note={movie.note} slug={movie.slug} key={movie.id}/>
+                        <div className={styles.movie} key={movie.id}>
+                            <Movies image={movie.image} note={movie.note} slug={movie.slug}/>
                         </div>
                     )
                 })}
