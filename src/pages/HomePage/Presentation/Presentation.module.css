@@ -27,3 +27,31 @@
     font-size: 1.2em;
     text-align: center;
 }
+
+@media (max-width: 425px){
+    .content{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content h1{
+        margin-bottom: 20px;
+        font-size: 4rem;
+    }
+
+    .content h3{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 320px){
+
+    .content h1{
+        margin-bottom: 20px;
+        font-size: 3.5rem;
+    }
+
+    .content h3{
+        font-size: .9rem;
+    }
+}

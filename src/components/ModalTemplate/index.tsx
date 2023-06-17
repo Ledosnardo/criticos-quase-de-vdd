@@ -17,8 +17,8 @@ const ModalTemplate = ({ modalOpen, critic, closeModal }: props) => {
     const moviesCritic = FindCriticMovies(critic?.name || '');
 
     return(
-        <Modal isOpen={modalOpen} onRequestClose={closeModal} ariaHideApp={false}>
-            <div className={styles.modal}>
+        <Modal isOpen={modalOpen} onRequestClose={closeModal} ariaHideApp={false} className={styles.modal}>
+            <div className={styles.modalIcon}>
                 <IoIosExit
                     size={40} onClick={() => closeModal()} cursor={'pointer'}
                     className={styles.closeModal}

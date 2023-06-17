@@ -19,6 +19,9 @@
 }
 
 .box h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 2rem;
     font-family: var(--font-dancing);
@@ -27,11 +30,16 @@
     padding: 12px 20px;
     margin-bottom: 5px;
     border-radius: 5px;
-    text-align: center;
     color: black;
     text-shadow: 
         -1px -1px 0px #FFF, 
         -1px 1px 0px #FFF,      
         1px -1px 0px #FFF,    
         1px 0px 0px #FFF;
+}
+
+@media (max-width: 425px){
+    .box h3{
+        padding: 0px 10px;
+    }
 }

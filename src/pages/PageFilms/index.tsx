@@ -7,8 +7,6 @@ const PageFilms = () => {
 
     const { movies } = UseMovies();
 
-    console.log(movies)
-
     return(
         <>
             <div className={styles.header}>

@@ -31,4 +31,40 @@
     width: 25%;
     height: 70vh;
     padding: 20px;
+    display: flex;
+}
+
+@media (max-width: 768px){
+    .movie{
+        width: 40%;
+    }
+}
+
+@media (max-width: 425px){
+    .header{
+        height: 9rem;
+    }
+
+    .section{
+        margin: 20px auto;
+    }
+
+    .movie{
+        width: 42%;
+        height: 50vh;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 375px){
+    .movie{
+        height: 45vh;
+    }
+}
+
+@media (max-width: 320px){
+    .movie{
+        width: 45%;
+        height: 40vh;
+    }
 }
