@@ -18,10 +18,15 @@ const HeaderMobile = ({ pathName }: props) => {
             <div className={styles.navIcon} onClick={toggleMode}>
                 <div className={navOpen ? styles.menuHamburguerActive : styles.menuHamburguer}></div>
             </div>
-            <div className={!navOpen ? styles.linksMobileClose : styles.linksMobile}>
+            <div 
+                className={!navOpen ? styles.linksMobileClose : styles.linksMobile}
+                onClick={() => toggleMode()}
+            >
                 {links.map(link => {
                     return (
-                        <Link key={link.id} to={`${link.url}`} style={{ textDecoration: 'none' }}>
+                        <Link key={link.id} to={`${link.url}`} 
+                            style={{ textDecoration: 'none' }}
+                        >
                             <h3 className={pathName === `${link.url}` ? styles.currentMobile : styles.defaultMobile}>
                                 {link.name}
                             </h3>

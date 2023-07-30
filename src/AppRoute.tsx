@@ -5,6 +5,7 @@ import { CriticsProvider } from './context/CriticsContext';
 import PageFilms from './pages/PageFilms';
 import { MoviesProvider } from './context/MoviesContext';
 import PageFilmDefault from './pages/PageFilmDefault';
+import PageDefault from './pages/PageDefault';
 
 function AppRoute() {
   return (
@@ -13,10 +14,12 @@ function AppRoute() {
         <MoviesProvider>
 
           <Routes>
-            <Route path='/' element={<HomePage />}/>
-            <Route path='/criticos' element={<PageCritics />}/>
-            <Route path='/filmes' element={<PageFilms />}/>
-            <Route path='/filmes/:slug' element={<PageFilmDefault />} />
+            <Route path= '/' element={<PageDefault />}>
+              <Route index element={<HomePage />}/>
+              <Route path='/criticos' element={<PageCritics />}/>
+              <Route path='/filmes' element={<PageFilms />}/>
+              <Route path='/filmes/:slug' element={<PageFilmDefault />} />
+            </Route>
           </Routes>
           
         </MoviesProvider>

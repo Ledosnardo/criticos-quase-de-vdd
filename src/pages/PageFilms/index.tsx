@@ -1,4 +1,3 @@
-import Header from "../../components/Header"
 import Movies from "../../components/Movies";
 import styles from './PageFilmsStyle.module.css';
 import { UseMovies } from "../../hooks/UseMovies";
@@ -10,7 +9,6 @@ const PageFilms = () => {
     return(
         <>
             <div className={styles.header}>
-                <Header />
                 <h1>Filmes</h1>
             </div>
             <section className={styles.section}>

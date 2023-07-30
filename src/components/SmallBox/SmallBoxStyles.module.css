@@ -5,3 +5,22 @@
     width: 90%;
     background: gray;
 }
+
+@media (max-width: 425px){
+    .text{
+        font-size: .8rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px){
+    .text{       
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 320px){
+    .text{       
+        font-size: .6rem;
+    }
+}

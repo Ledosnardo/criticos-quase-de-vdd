@@ -13,10 +13,5 @@
         "name": "Filmes",
         "url": "/filmes",
         "id": 3
-    },
-    {
-        "name": "Sobre",
-        "url": "/sobre",
-        "id": 4
     }
 ]

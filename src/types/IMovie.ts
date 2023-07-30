@@ -11,4 +11,5 @@ export interface IMovie {
         }[]
     ,
     note: number
+    avaliation: string
 }

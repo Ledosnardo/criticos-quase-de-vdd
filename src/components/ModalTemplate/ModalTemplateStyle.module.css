@@ -7,6 +7,7 @@
     margin: 0;
     padding: 2px 0;
     text-align: end;
+    color: var(--color-black);
 }
 
 .closeModal :hover{
@@ -24,6 +25,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--color-black);
     justify-content: center;
 }
 
@@ -118,6 +120,7 @@
     .perfil img{
         width: 80px;
         height: 80px;
+        border-radius: 50px;
         margin: 0;
     }
 

@@ -38,3 +38,27 @@
     width: auto;
     text-align: center;
 }
+
+@media (max-width: 768px){
+    .critic img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .critic h4{
+        width: 70%;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 375px){
+    .critic img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .critic h4{
+        width: 80%;
+        font-size: 1rem;
+    }
+}

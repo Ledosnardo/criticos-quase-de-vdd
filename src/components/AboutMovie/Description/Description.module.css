@@ -1,0 +1,96 @@
+.section_description{
+    grid-area: description;
+}
+
+.movie__name{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: var(--font-dancing);
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.description{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.producer{
+    width: 25%;
+    border-radius: 5px;
+    color: white;
+}
+
+.date{
+    width: 18%;
+    border-radius: 5px;
+    color: white;
+}
+
+@media (max-width: 425px){
+    .section_description h1{
+        font-size: 1.3rem;
+    }
+
+    .section_description h2{
+        font-size: .8rem;
+        text-transform: uppercase;
+    }
+
+    .producer{
+        width: 30%;
+    }
+
+    .date{
+        width: 25%;
+    }
+
+    .description{
+        margin: 20px 0 10px;
+    }
+}
+
+@media (max-width: 425px){
+    .section_description h2{
+        font-size: .7rem;
+    }
+
+    .producer{
+        width: 32%;
+    }
+
+    .date{
+        width: 30%;
+    }
+}
+
+@media (max-width: 320px){
+    .description{
+        justify-content: space-between;
+
+    }
+
+    .section_description h1{
+        font-size: 1rem;
+    }
+
+    .section_description h2{
+        font-size: .5rem;
+    }
+
+    .producer{
+        width: 40%;
+    }
+
+    .date{
+        width: 40%;
+    }
+
+    .date h4{
+        width: 80%;
+    }
+}

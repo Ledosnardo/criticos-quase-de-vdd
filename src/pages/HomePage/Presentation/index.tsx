@@ -1,11 +1,9 @@
-import Header from "../../../components/Header"
 import styles from './Presentation.module.css';
 
 const Presentation = () => {
 
     return(
         <section className={styles.section}>
-            <Header />
             <div className={styles.content}>
                 <h1>Críticos quase <br/> de verdade</h1>
                 <h3>
