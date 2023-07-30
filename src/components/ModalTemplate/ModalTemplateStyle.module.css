@@ -143,7 +143,7 @@
     }
 
     .movies div{
-        height: 30vh;
+        height: 25vh;
     }
 }
 
@@ -156,6 +156,6 @@
     }
     .movies div{
         width: 90px;
-        height: 25vh;
+        height: 20vh;
     }
 }
