@@ -41,6 +41,13 @@
         width: 140px;
     }
 }
+
+@media (max-width: 375px){
+    .image img{
+        height: 40vh;
+    }
+}
+
 @media (max-width: 320px){
     .image img{
         height: 40vh;

@@ -8,14 +8,14 @@
 
 @media (max-width: 425px){
     .text{
-        font-size: .8rem;
+        font-size: .7rem;
         width: 100%;
     }
 }
 
 @media (max-width: 375px){
     .text{       
-        font-size: .7rem;
+        font-size: .6rem;
     }
 }
 

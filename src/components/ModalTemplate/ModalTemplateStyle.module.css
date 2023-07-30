@@ -141,6 +141,10 @@
     .movies{
         width: 100%;
     }
+
+    .movies div{
+        height: 30vh;
+    }
 }
 
 @media (max-width: 320px){
@@ -152,6 +156,6 @@
     }
     .movies div{
         width: 90px;
-        height: 30vh;
+        height: 25vh;
     }
 }
