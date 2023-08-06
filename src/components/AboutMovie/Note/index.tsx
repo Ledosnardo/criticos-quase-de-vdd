@@ -19,7 +19,9 @@ const Note = ({ movie }: props) => {
             </div>
             <div className={styles.critic}>
                 <div className={styles.avaliation}>
-                    <h3>{movie.avaliation}</h3>
+                    <div>
+                        <h3 className={styles.text}>{movie.avaliation}</h3>
+                    </div>
                 </div>
                 <div className={styles.criticsContainer}>
                     {movie.assessments.map((critic, index) => (

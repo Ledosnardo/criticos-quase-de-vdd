@@ -26,7 +26,7 @@
 }
 
 .avaliation{    
-    max-width: 60%;
+    width: 60%;
     margin: 20px;
     padding: 10px 0px;
     color: var(--color-black);
@@ -36,7 +36,7 @@
     border-radius: 0px 20px 20px 20px;
 }
 
-.avaliation h3{
+.text{
     font-size: 1.5rem;
     width: 90%;
 }
@@ -67,7 +67,7 @@
         margin-top: 20px;
     }
 
-    .avaliation h3{
+    .text{
         font-size: 1rem;
     }
 
@@ -82,18 +82,28 @@
 }
 
 @media (max-width: 375px){
+    .critic{
+        flex-direction: column-reverse;
+    }
+
     .criticsContainer{
-        gap: 0px 30px;
+        width: 100%;
+        gap: 15px 15px;
+        grid-template-columns: auto auto auto;
+    }
+    .avaliation{
+        width: 80%;
+        padding: 10px;
     }
 }
 
 @media (max-width: 320px){
-    .avaliation h3{
+    .text{
         font-size: .8rem;
         margin-right: 20px;
         margin: 0;
     }
     .criticsContainer{
-        height: 50vh;
+        gap: 10px 15px;
     }
 }

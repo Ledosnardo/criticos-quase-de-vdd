@@ -73,7 +73,7 @@
 .movies div{
     min-width: 30%;
     height: 40vh;
-    margin: 5px 20px 0 0;
+    margin: 5px 10px 0 0px;
 }
 
 @media (max-width: 1024px){
@@ -102,6 +102,12 @@
 }
 
 @media (max-width: 425px){
+    .modalIcon{
+        height: 2vh;
+    }
+    .closeModal{
+        height: 5vh;
+    }
     .content{
         flex-direction: column;
         justify-content: center;
@@ -139,21 +145,30 @@
     }
 
     .movies{
-        width: 100%;
+        
+        height: auto;
     }
 
     .movies div{
         height: 25vh;
+        display: flex;
+        justify-content: center;
     }
 }
 
 @media (max-width: 320px){
+    .modalIcon{
+        height: 1vh;
+    }
+    
     .perfil h1{
         font-size: 1.4rem;
     }
+
     .movies{
         height: 30vh;
     }
+    
     .movies div{
         width: 90px;
         height: 20vh;

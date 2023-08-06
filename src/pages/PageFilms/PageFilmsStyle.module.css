@@ -51,20 +51,13 @@
 
     .movie{
         width: 42%;
-        height: 45vh;
+        height: auto;
         padding: 5px;
-    }
-}
-
-@media (max-width: 375px){
-    .movie{
-        height: 30vh;
     }
 }
 
 @media (max-width: 320px){
     .movie{
         width: 45%;
-        height: 25vh;
     }
 }
