@@ -27,8 +27,8 @@
 
 .avaliation{    
     width: 60%;
-    margin: 20px;
-    padding: 10px 0px;
+    margin: 0px 20px;
+    padding: 12px;
     color: var(--color-black);
     background-color: var(--color-white);;
     display: flex;
@@ -79,6 +79,9 @@
         width: 100%;
         margin-top: 20px;
     }
+    .avaliation{
+        width: 80%;
+    }
 }
 
 @media (max-width: 375px){
@@ -90,10 +93,6 @@
         width: 100%;
         gap: 15px 15px;
         grid-template-columns: auto auto auto;
-    }
-    .avaliation{
-        width: 80%;
-        padding: 10px;
     }
 }
 
