@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     font-size: 4rem;
-    color: black;
+    color: var(--color-primary);
     text-shadow: 
         -1px -1px 0px #FFF, 
         -1px 1px 0px #FFF,      
@@ -25,15 +25,20 @@
     margin-top: 50px;
 }
 
-.avaliation{    
-    width: 60%;
-    margin: 0px 20px;
+.avaliation{
+    display: flex;
+    margin-left: 20px;
+}
+
+.avaliation__text{    
+    width: 80%;
+    margin: 30px 5px;
     padding: 12px;
-    color: var(--color-black);
-    background-color: var(--color-white);;
+    color: var(--color-primary);
+    background-color: var(--color-secundary);;
     display: flex;
     justify-content: center;
-    border-radius: 0px 20px 20px 20px;
+    border-radius: 0px 30px 30px 30px;
 }
 
 .text{
@@ -42,10 +47,10 @@
 }
 
 .criticsContainer{
-    padding: 20px 0;
     display: grid;
+    height: 40vh;
     grid-template-columns: auto auto auto;
-    gap: 15px 40px;
+    gap: 0px 30px;
 }
 
 @media (max-width: 768px){
@@ -82,7 +87,7 @@
         width: 100%;
         margin-top: 20px;
     }
-    .avaliation{
+    .avaliation__text{
         width: 80%;
     }
 }

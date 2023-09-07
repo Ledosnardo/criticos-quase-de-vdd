@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
 :root{
-    --color-white: #edeee9;
-    --color-gray: #848081;
-    --color-black: #000;
+    --color-secundary: #edeee9;
+    --color-tertiary: #848081;
+    --color-primary: #000;
     --font-roboto: 'Roboto Slab', serif;
     --font-dancing : 'Dancing Script', cursive;
 }

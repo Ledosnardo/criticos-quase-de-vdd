@@ -1,9 +1,11 @@
+@import '../../styles/commumStyles.css';
+
 .text{
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
     width: 90%;
-    background: gray;
+    background: var(--color-tertiary);
 }
 
 @media (max-width: 425px){

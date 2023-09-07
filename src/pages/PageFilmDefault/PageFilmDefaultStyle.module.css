@@ -3,7 +3,7 @@
 .content{
     width: 100%;
     height: auto;
-    background: var(--color-black);
+    background: var(--color-primary);
 }
 
 .box{

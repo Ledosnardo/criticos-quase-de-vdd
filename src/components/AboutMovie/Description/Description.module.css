@@ -4,7 +4,7 @@
 
 .movie__name{
     width: 100%;
-    color: white;
+    color: var(--color-secundary);
     text-align: center;
     font-family: var(--font-dancing);
     font-size: 2em;
@@ -22,13 +22,13 @@
 .producer{
     width: 25%;
     border-radius: 5px;
-    color: white;
+    color: var(--color-secundary);
 }
 
 .date{
     width: 18%;
     border-radius: 5px;
-    color: white;
+    color: var(--color-secundary);
 }
 
 @media (max-width: 425px){

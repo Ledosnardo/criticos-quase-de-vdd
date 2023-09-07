@@ -27,7 +27,7 @@
 }
 
 .defaultMobile{
-    color: var(--color-black);
+    color: var(--color-primary);
     padding: 20px;
     text-transform: uppercase;
     font-family: var(--font-roboto);
@@ -36,16 +36,16 @@
 }
 
 .defaultMobile:active{
-    background-color: var(--color-white);
+    background-color: var(--color-secundary);
 }
 
 .menuHamburguer{
     top: 20px;
     width: 30px;
     height: 4px;
-    background-color: var(--color-gray);
+    background-color: var(--color-tertiary);
     margin-right: 20px;
-    box-shadow: 0 0 1px 1px var(--color-black);
+    box-shadow: 0 0 1px 1px var(--color-primary);
 }
 
 .menuHamburguer::before{
@@ -54,9 +54,9 @@
     top: 38px;
     width: 30px;
     height: 4px;
-    background-color: var(--color-gray);
+    background-color: var(--color-tertiary);
     margin-right: 20px;
-    box-shadow: 0 0 1px 1px var(--color-black);
+    box-shadow: 0 0 1px 1px var(--color-primary);
 }
 
 .menuHamburguerActive{
@@ -65,8 +65,8 @@
     height: 4px;
     margin-right: 20px;
     transform: rotate(45deg);
-    background-color: var(--color-white);
-    box-shadow: 0 0 1px 1px var(--color-black);
+    background-color: var(--color-secundary);
+    box-shadow: 0 0 1px 1px var(--color-primary);
 }
 
 .menuHamburguerActive::before{
@@ -75,9 +75,9 @@
     top: 0px;
     width: 30px;
     height: 4px;
-    background-color: var(--color-white);
+    background-color: var(--color-secundary);
     margin-right: 20px;
-    box-shadow: 0 0 1px 1px var(--color-black);
+    box-shadow: 0 0 1px 1px var(--color-primary);
     transform: rotate(90deg);
 }
 
