@@ -71,7 +71,7 @@
 }
 
 .movies div{
-    width: 30%;
+    width: 60%;
     height: 40vh;
     margin: 5px 10px 0 0px;
 }
@@ -79,6 +79,10 @@
 @media (max-width: 1024px){
     .modalIcon{
         margin-bottom: 10px;
+    }
+
+    .movies div{
+        width: 90%;
     }
 }
 
